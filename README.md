@@ -1,4 +1,4 @@
-# Hi, I'm aresisgood 👋
+# Hi, I'm aresisgood
 
 我正在打造實用、重視隱私的 AI 工具與資料產品。  
 I build practical, privacy-aware AI tools and data products with Python and TypeScript.
