@@ -18,7 +18,7 @@
 - 處理 2026/1–7 鉅亨網新聞 5,409 篇，依新聞 ID 去重後保留 4,486 篇
 - 新聞向量化：BGE-M3 產生 4,486 × 1024 維 Embedding，寫入 Metadata 與處理狀態
 - 事件分群產出 3,070 個事件，其中 295 個由多篇重複報導合併而成
-- 支援 PostgreSQL／JSON 雙資料來源、CPU／CUDA 雙執行環境
+- 支援 PostgreSQL / JSON 雙資料來源、CPU / CUDA 雙執行環境
 - 建立 64 篇新聞、40 個事件的 Golden Set，以 Pairwise Precision / Recall / F1 量化分群品質
 - 分析誤判案例，加入日期 Gate、股票代號 Gate 與 Template Detection 規則降低事件誤合併
 
